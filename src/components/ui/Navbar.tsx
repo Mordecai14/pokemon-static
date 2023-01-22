@@ -23,8 +23,7 @@ export const Navbar = () => {
                 height={70}
             />
             <Link href={"/"}>
-                <Container display="flex" direction="row" alignItems="center">
-
+                <Container css={{ padding: "0" }} display="flex" direction="row" alignItems="center">
                     <Text color="white" h2>P</Text>
                     <Text color="white">okémon</Text>
                 </Container>
@@ -32,7 +31,9 @@ export const Navbar = () => {
 
             <Spacer css={{ flex: 1 }} />
 
-            <Text color="white">Favoritos</Text>
+            <Link href={"/favoritos"}>
+                <Text color="white">Favoritos</Text>
+            </Link>
 
         </div >
     )
