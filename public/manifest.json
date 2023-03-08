@@ -1,0 +1,23 @@
+{
+    "name": "Pokemon PWA App",
+    "short_name": "PokePWA",
+    "icons": [
+      {
+        "src": "/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }  
+    ],
+    "theme_color": "#FFFFFF",
+    "background_color": "#004740",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+  }
